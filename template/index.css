@@ -1,0 +1,68 @@
+
+.drop_area {
+    background-color: #e5e5e5;
+    height: 40vh;
+    width: 40vh;
+    border-radius: 5%;
+    border-width: 1vh;
+    border-style: dashed;
+    border-color: black;
+    display: flex;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn_style {
+    width: 20vh;
+    height: 8vh;
+    border-radius: 2vh;
+}
+
+.around {
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+}
+
+.bottom_div_size {
+    width: 50vw;
+    height: 25vh;
+}
+
+#btns {
+    height: 21vh;
+    margin: 2vh;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.img_size {
+    height: 10vh;
+    width: 10vh;
+}
+
+.none {
+    display: none;
+}
+
+#message-box {
+    position: fixed;
+    top: 4%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #888888;
+    display: none;
+}

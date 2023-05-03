@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Hello World!</title>
+    <link rel="stylesheet" type="text/css" href="template/index.css"/>
+
+</head>
+<body onload="get_path()">
+
+<div id="container" style="margin: 5vh">
+    <div id="message-box" style="font-weight: bold; font-size: 2vh">This is a message box!</div>
+    <div id="top"
+         class="center"
+         style="background-color: #a6ffdf; height: 15vh;">
+        <h1 style="font-weight: bold; font-size: 5vh">Excel文件合并程序</h1>
+    </div>
+    <div id="main"
+         class="around "
+         style="background-color: #c2fde3; height: 50vh;">
+        <div id="drop_area1_out">
+            <div id="drop_area1"
+                 class="column drop_area">
+                <div id="title1" style="height: 10vh; font-weight: bold; font-size: 4vh;" class="center">
+                    进项文件
+                </div>
+                <label for="file_btn1">
+                    <input id="file_btn1" class="none" accept=".xlsx,.xls,.csv;" title="" type="file"/>
+                </label>
+                <div id="drop_area1_in_hidden" class="center"
+                     style="height: 5vh; font-weight: bold; visibility: hidden">
+                    <!--                    visibility: hidden-->
+                </div>
+                <div style="height: 30vh; display: flex; justify-content: center">
+                    <img id="add_img1" alt="添加文件" src="template/add_file.png" class="img_size"/>
+                </div>
+            </div>
+        </div>
+        <div id="drop_area2_out">
+            <div id="drop_area2"
+                 class="column drop_area">
+                <div id="title2" style="height: 10vh; font-weight: bold; font-size: 4vh;" class="center">
+                    进项文件
+                </div>
+                <label for="file_btn2">
+                    <input id="file_btn2" class="none" accept=".xlsx,.xls,.csv;" title="" type="file"/>
+                </label>
+                <div id="drop_area2_in_hidden" class="center"
+                     style="height: 5vh;font-weight: bold; visibility: hidden">
+                    <!--                    visibility: hidden-->
+                </div>
+                <div style="height: 30vh; display: flex; justify-content: center">
+                    <img id="add_img2" alt="添加文件" src="template/add_file.png" class="img_size"/>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <div id="bottom" style="background-color: #a6ffdf; height: 25vh; display: flex;" class="row">
+        <div id="config" style="background-color: #a6ffdf;" class="bottom_div_size">
+            <div id="path"
+                 class="around column"
+                 style="background-color: #a6ffdf; height: 21vh; margin: 2vh;">
+                请输入出项、销项文件夹路径: <input id="basic_path" type="text" class="input_style"/>
+                <br/>
+                请输入输出结果文件夹路径: <input id="out_path" type="text" class="input_style"/>
+                <br/>
+                请输入合并文件路径: <input id="union_excel" type="text" class="input_style"/>
+            </div>
+
+        </div>
+
+        <div id="btn" style="background-color: #a6ffdf; " class="bottom_div_size">
+            <div id="btns"
+                 class="around row"
+                 style="background-color: #a6ffdf;">
+                <div id="setting"
+                     style=" background-color: #f5b59c;" class="center btn_style" onclick="save_path()">
+                    <div style="font-weight: bold; font-size: 2vh">配置</div>
+                </div>
+                <div id="combine_btn" style=" background-color: #f5b59c; " class="center btn_style">
+                    <div style="font-weight: bold; font-size: 2vh">合并</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="template/init.js"></script>
+
+    <script type="text/javascript" src="template/ModifyCss.js"></script>
+    <script type="text/javascript" src="template/JsToPy.js"></script>
+    <script type="text/javascript" src="template/DragFile.js"></script>
+    <script type="text/javascript" src="template/ClickBtn.js"></script>
+</div>
+</body>
+</html>

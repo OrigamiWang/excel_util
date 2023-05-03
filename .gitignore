@@ -1,0 +1,11 @@
+__pycache_/*
+
+build/*
+
+dist/*
+
+app.spec
+
+package.json
+
+package-lock.json
