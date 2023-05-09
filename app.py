@@ -18,7 +18,6 @@ app = flask.Flask(__name__, static_url_path='', static_folder='.', template_fold
 @app.route('/')
 def index():
     return flask.render_template('template/index.html')
-    # return flask.render_template(get_path('index.html'))
 
 
 @app.route('/echo/<text>')
@@ -51,10 +50,17 @@ def get_excel_file_path():
 
 @app.route('/combine')
 def combine_excel():
-    union_excel = flask.request.args.get('union')
-    in_excel, out_excel = get_excel_file_path()
-    solution(in_excel, out_excel, union_excel)
-    return flask.jsonify("combine excel success!")
+    try:
+        union_excel = flask.request.args.get('union')
+        in_excel, out_excel = get_excel_file_path()
+        if in_excel == "" or out_excel == "":
+            return flask.jsonify(400)
+        solution(in_excel, out_excel, union_excel)
+        return flask.jsonify(200)
+    except Exception as e:
+        print("combine_excel方法异常")
+        print(e)
+        return flask.jsonify(500)
     # return write_excel(combine_file(file1, file2))
     # http://127.0.0.1:5000/excel/files?file1=C:\Users\Origami\Desktop\excel\in.xlsx&file2=C:\Users\Origami\Desktop\excel\out.xlsx
 
@@ -62,17 +68,27 @@ def combine_excel():
 # 保存文件路径配置
 @app.route('/setting/paths')
 def save_path():
-    out_path = flask.request.args.get('path1')
-    union_excel = flask.request.args.get('path2')
-    write_yaml(out_path, union_excel)
-    return flask.jsonify("config success!")
+    try:
+        out_path = flask.request.args.get('path1')
+        union_excel = flask.request.args.get('path2')
+        write_yaml(out_path, union_excel)
+        return flask.jsonify(200)
+    except Exception as e:
+        print("save_path方法异常")
+        print(e)
+        return flask.jsonify(500)
 
 
 # 获取文件路径配置
 @app.route('/setting/getPath')
 def get_yaml_path():
-    print(os.getcwd())
-    return flask.jsonify(get_path_str('config.yaml'))
+    try:
+        print(os.getcwd())
+        return flask.jsonify(get_path_str('config.yaml'))
+    except Exception as e:
+        print("get_yaml_path方法异常")
+        print(e)
+        return ""
 
 
 def start_server():
@@ -83,15 +99,19 @@ def start_server():
 @app.route("/upload", methods=["POST", "GET"])
 def upload():
     # 文件类型：进项文件：0开头， 销项文件：1开头
-    file_type = flask.request.args.get('type')
-    file = flask.request.files["file"]
-    print("file_type: ", file_type)
-    # 在保存excel文件前，先把同类型的文件全部删了
-    delete_old_file(file_type)
-    # 上传最新的文件
-    upload_file(file_type, file)
-
-    return flask.jsonify({"message": "File uploaded and saved successfully"})
+    try:
+        file_type = flask.request.args.get('type')
+        file = flask.request.files["file"]
+        print("file_type: ", file_type)
+        # 在保存excel文件前，先把同类型的文件全部删了
+        delete_old_file(file_type)
+        # 上传最新的文件
+        upload_file(file_type, file)
+        return flask.jsonify(200)
+    except Exception as e:
+        print("upload方法异常")
+        print(e)
+        return flask.jsonify(500)
 
 
 def delete_old_file(file_type):
@@ -117,6 +137,7 @@ def list_dir():
 
 
 if __name__ == '__main__':
+    # app.run()
     t = threading.Thread(target=start_server)
     t.daemon = True
     t.start()

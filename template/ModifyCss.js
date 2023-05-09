@@ -12,7 +12,6 @@ function drop_fun(files, dragInHiddenDiv, dragDiv, title, i) {
     // 将内框中的文本修改问文件的名字
     title.style.color = "black"
     drag_upload_file(files[0], i)
-    message_box("上传文件成功！", "springgreen", 2000)
 }
 
 function dragenter_fun(dragDiv, title) {
@@ -33,7 +32,6 @@ function display_file(file_btn, drop_area_in, drop_area_in_hidden) {
     console.log("文件路径：" + files[0].name)
     dragInHiddenDiv.innerText = files[0].name
     document.getElementById(drop_area_in_hidden).style.visibility = ""
-    message_box('添加文件成功！', 'springgreen', 2000)
     // 将内框中的文本修改问文件的名字
 }
 

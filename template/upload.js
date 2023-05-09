@@ -16,7 +16,11 @@ function click_upload_file(i) {
     })
         .then(response => response.json())
         .then(data => {
-            console.log(data)
+            if (data === 200) {
+                message_box('文件上传成功！', 'springgreen', 2000)
+            } else if (data === 500) {
+                message_box('文件上传失败，请检查文件类型后重试！', 'red', 2000)
+            }
             //do something with data
         })
         .catch(error => {

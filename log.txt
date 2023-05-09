@@ -282,3 +282,43 @@ union_excel
 C:\Users\Origami\Desktop\ExcelUtil
 out_path
 union_excel
+ * Serving Flask app 'app' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [09/May/2023 19:11:47] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2023 19:11:47] "GET /template/index.css HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2023 19:11:47] "GET /template/add_file.png HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2023 19:11:47] "GET /template/init.js HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2023 19:11:47] "GET /template/upload.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2023 19:11:47] "GET /template/ModifyCss.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2023 19:11:47] "GET /template/JsToPy.js HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2023 19:11:47] "GET /template/DragFile.js HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2023 19:11:47] "GET /template/ClickBtn.js HTTP/1.1" 304 -
+127.0.0.1 - - [09/May/2023 19:11:47] "GET /setting/getPath HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2023 19:11:47] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [09/May/2023 19:11:51] "POST /upload?type=0 HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2023 19:11:53] "POST /upload?type=1 HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2023 19:11:54] "GET /combine?union=D:\university\project\excel_util\excel\待匹配_test.xlsx HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2023 19:11:55] "GET /setting/paths?path1=D:\university\project\excel_util\output\&path2=D:\university\project\excel_util\excel\待匹配_test.xlsx HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2023 19:11:58] "POST /upload?type=0 HTTP/1.1" 200 -
+127.0.0.1 - - [09/May/2023 19:11:58] "GET /combine?union=D:\university\project\excel_util\excel\待匹配_test.xlsx HTTP/1.1" 200 -
+D:\university\project\excel_util\ExcelUtil
+out_path
+union_excel
+file_type:  0
+delete the old file...
+upload new file...
+file_type:  1
+delete the old file...
+upload new file...
+[['3月', 1, 14067863, '2023-03-07', '*电线电缆*电线电缆', '3*2.5', 13, 384.955385, '扎', 5004.42, 5655, '四月', 2, 14067863, '2023-03-07', '献县华桥线缆有限公司', '*电线电缆*电线电缆', '3*2.5', 13, 384.955385, '扎', 5004.42, 5655], ['3月', 1, 14067863, '2023-03-07', '*电线电缆*电线电缆', '3*4+1*2.5', 2, 734.515, '扎', 1469.03, 1660, '四月', 3, 14067863, '2023-03-07', '献县华桥线缆有限公司', '*电线电缆*电线电缆', '3*4+1*2.5', 2, 734.515, '扎', 1469.03, 1660], ['四月', 3, 23782444, '2023-03-01', '*黑色金属冶炼压延品*止水钢板', 'L型', 30, 86.725667, '个', 2601.77, 2940, '3月', 1.0, 23782444.0, '2023-03-01', '献县华桥线缆有限公司', '*黑色金属冶炼压延品*止水钢板', 'L型', 30.0, 86.725667, '个', 2601.77, 2940.0], ['四月', 4, 23782444, '2023-03-01', '*黑色金属冶炼压延品*止水钢板', 'L型', 30, 86.725667, '个', 2601.77, 2940, '3月', 1.0, 23782444.0, '2023-03-01', '献县华桥线缆有限公司', '*黑色金属冶炼压延品*止水钢板', 'L型', 30.0, 86.725667, '个', 2601.77, 2940.0], ['四月', 5, 23782444, '2023-03-01', '*黑色金属冶炼压延品*止水钢板', 'L型', 20.0, 86.725667, '个', 2601.77, 2940, '3月', 1.0, 23782444.0, '2023-03-01', '献县华桥线缆有限公司', '*黑色金属冶炼压延品*止水钢板', 'L型', 20.0, 86.725667, '个', 2601.77, 2940.0]]
+[['进销比对区', '进销比对区', '进销比对区', '进销比对区'], ['进项含税单价', '销项含税单价', '进项含税总金额', '销项含税金额'], [435.0, 435.0, 5655, 5655], [830.0, 830.0, 1660, 1660], [98.0, 98.0, 2940.0, 2940], [98.0, 98.0, 2940.0, 2940], [147.0, 147.0, 2940.0, 2940]]
+D:\university\project\excel_util\output\ D:\university\project\excel_util\excel\待匹配_test.xlsx
+file_type:  0
+delete the old file...
+upload new file...
+combine_excel方法异常
+Usecols do not match columns, columns expected but not found: ['销方名称']
