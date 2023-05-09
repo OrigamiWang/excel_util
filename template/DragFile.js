@@ -47,7 +47,7 @@ for (let i = 0; i < 2; ++i) {
         //获取拖拽进来的文件
         let files = e.dataTransfer.files
         // 用于js之间传值
-        drop_fun(files, dragInHiddenDiv[i], dragDiv[i], title[i]);
+        drop_fun(files, dragInHiddenDiv[i], dragDiv[i], title[i], i);
     }, false)
 
 // 拖拽进入

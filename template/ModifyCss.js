@@ -3,7 +3,7 @@ function drag_over_fun(dragDiv, title) {
     title.style.color = "white"
 }
 
-function drop_fun(files, dragInHiddenDiv, dragDiv, title) {
+function drop_fun(files, dragInHiddenDiv, dragDiv, title, i) {
     console.log("文件名字：" + files[0].name)
     console.log("文件类型：" + files[0].type)
     dragInHiddenDiv.style.visibility = ""
@@ -11,6 +11,7 @@ function drop_fun(files, dragInHiddenDiv, dragDiv, title) {
     dragDiv.style.backgroundColor = "#e5e5e5"
     // 将内框中的文本修改问文件的名字
     title.style.color = "black"
+    drag_upload_file(files[0], i)
     message_box("上传文件成功！", "springgreen", 2000)
 }
 

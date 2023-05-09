@@ -25,8 +25,9 @@
                     进项文件
                 </div>
                 <label for="file_btn1">
-                    <input id="file_btn1" class="none" accept=".xlsx,.xls,.csv;" title="" type="file"/>
+                    <input type="file" class="none" name="file" id="file_btn1" accept=".xls,.xlsx,.csv">
                 </label>
+
                 <div id="drop_area1_in_hidden" class="center"
                      style="height: 5vh; font-weight: bold; visibility: hidden">
                     <!--                    visibility: hidden-->
@@ -40,10 +41,10 @@
             <div id="drop_area2"
                  class="column drop_area">
                 <div id="title2" style="height: 10vh; font-weight: bold; font-size: 4vh;" class="center">
-                    进项文件
+                    销项文件
                 </div>
                 <label for="file_btn2">
-                    <input id="file_btn2" class="none" accept=".xlsx,.xls,.csv;" title="" type="file"/>
+                    <input type="file" class="none" name="file" id="file_btn2" accept=".xls,.xlsx,.csv">
                 </label>
                 <div id="drop_area2_in_hidden" class="center"
                      style="height: 5vh;font-weight: bold; visibility: hidden">
@@ -54,6 +55,22 @@
                 </div>
             </div>
         </div>
+        <div id="drop_area3_out">
+            <div id="drop_area3"
+                 class="column drop_area">
+                <div id="title3" style="height: 10vh; font-weight: bold; font-size: 4vh;"
+                     class="center">
+                    使用说明
+                </div>
+                <div style="height: 30vh; font-size: 2vh; font-weight: bold; margin: 3vh">
+                    1. 修改左下角的2个默认的文件路径配置（可以参考默认路径）
+                    <br/>注意：第一行末尾有\，第二行末尾没有\<br/>
+                    2. 修改完后点击配置按钮<br/>
+                    3. 点击加号或者直接将文件拖入<br/>
+                    4. 点击合并按钮
+                </div>
+            </div>
+        </div>
 
 
     </div>
@@ -61,12 +78,21 @@
         <div id="config" style="background-color: #a6ffdf;" class="bottom_div_size">
             <div id="path"
                  class="around column"
-                 style="background-color: #a6ffdf; height: 21vh; margin: 2vh;">
-                请输入出项、销项文件夹路径: <input id="basic_path" type="text" class="input_style"/>
-                <br/>
-                请输入输出结果文件夹路径: <input id="out_path" type="text" class="input_style"/>
-                <br/>
-                请输入合并文件路径: <input id="union_excel" type="text" class="input_style"/>
+                 style="background-color: #c2fde3">
+                <div class="center" style="background-color: #c2fde3; flex-direction: column; height: 10vh; width: 40vw">
+                    <div class="center" style="background-color: #c2fde3; height: 5vh; width: 30vw">
+                        请输入输出结果文件夹路径:
+                    </div>
+                    <input id="out_path" style="background-color: #a6ffdf;height: 4vh; width: 30vw" type="text"
+                           value="22212333333333333333"/>
+                </div>
+                <div class="center" style="background-color: #c2fde3; flex-direction: column; height: 10vh; width: 40vw">
+                    <div class="center" style="background-color: #c2fde3; height: 5vh; width: 30vw">
+                        请输入合并文件路径:
+                    </div>
+                    <input id="union_excel" style="background-color: #a6ffdf;height: 4vh; width: 30vw" type="text"
+                           value="22212333333333333333"/>
+                </div>
             </div>
 
         </div>
@@ -74,7 +100,7 @@
         <div id="btn" style="background-color: #a6ffdf; " class="bottom_div_size">
             <div id="btns"
                  class="around row"
-                 style="background-color: #a6ffdf;">
+                 style="background-color: #c2fde3;">
                 <div id="setting"
                      style=" background-color: #f5b59c;" class="center btn_style" onclick="save_path()">
                     <div style="font-weight: bold; font-size: 2vh">配置</div>
@@ -87,6 +113,7 @@
     </div>
     <script type="text/javascript" src="template/init.js"></script>
 
+    <script type="text/javascript" src="template/upload.js"></script>
     <script type="text/javascript" src="template/ModifyCss.js"></script>
     <script type="text/javascript" src="template/JsToPy.js"></script>
     <script type="text/javascript" src="template/DragFile.js"></script>

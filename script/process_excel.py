@@ -12,7 +12,7 @@ from .backup_file import backup_file
 
 def solution(in_excel, out_excel, union_excel):
     # 给文件备份
-    backup_file(in_excel, out_excel, union_excel)
+    # backup_file(in_excel, out_excel, union_excel)
     # in_col 和 out_col 需要从配置文件中读取
     # match_in: 4/5/6 货物、应税劳务及服务/规格型号/数量
     # match_out: 5/6/7 货物、应税劳务及服务/规格型号/数量

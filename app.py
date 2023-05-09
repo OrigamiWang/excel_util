@@ -26,13 +26,33 @@ def echo(text):
     return flask.jsonify(f'you input text is {text}')
 
 
-# TODO: Cannot get file path in html, maybe should post first?
-# TODO: https://developer.mozilla.org/zh-CN/docs/Web/API/File_API/Using_files_from_web_applications#%E7%A4%BA%E4%BE%8B%EF%BC%9A%E4%B8%8A%E4%BC%A0%E4%B8%80%E4%B8%AA%E7%94%A8%E6%88%B7%E9%80%89%E6%8B%A9%E7%9A%84%E6%96%87%E4%BB%B6
-@app.route('/excel/files')
+def get_excel_file_path():
+    in_excel = ''
+    out_excel = ''
+    file_list = list_dir()
+    hasInExcel = False
+    hasOutExcel = False
+    if len(file_list):
+        # 必须是一个进项文件，一个销项文件才符合要求
+        for file in file_list:
+            if str(file[0]) == str(0):
+                in_excel = file
+                hasInExcel = True
+            if str(file[0]) == str(1):
+                out_excel = file
+                hasOutExcel = True
+        if hasInExcel and hasOutExcel:
+            in_excel_path = os.path.join(os.getcwd() + '\\temp', in_excel)
+            out_excel_path = os.path.join(os.getcwd() + '\\temp', out_excel)
+            return in_excel_path, out_excel_path
+        return "", ""
+    return "", ""
+
+
+@app.route('/combine')
 def combine_excel():
-    in_excel = flask.request.args.get('file1')
-    out_excel = flask.request.args.get('file2')
-    union_excel = flask.request.args.get('file3')
+    union_excel = flask.request.args.get('union')
+    in_excel, out_excel = get_excel_file_path()
     solution(in_excel, out_excel, union_excel)
     return flask.jsonify("combine excel success!")
     # return write_excel(combine_file(file1, file2))
@@ -42,10 +62,9 @@ def combine_excel():
 # 保存文件路径配置
 @app.route('/setting/paths')
 def save_path():
-    basic_path = flask.request.args.get('path1')
-    out_path = flask.request.args.get('path2')
-    union_excel = flask.request.args.get('path3')
-    write_yaml(basic_path, out_path, union_excel)
+    out_path = flask.request.args.get('path1')
+    union_excel = flask.request.args.get('path2')
+    write_yaml(out_path, union_excel)
     return flask.jsonify("config success!")
 
 
@@ -58,6 +77,43 @@ def get_yaml_path():
 
 def start_server():
     app.run()
+
+
+# 文件上传
+@app.route("/upload", methods=["POST", "GET"])
+def upload():
+    # 文件类型：进项文件：0开头， 销项文件：1开头
+    file_type = flask.request.args.get('type')
+    file = flask.request.files["file"]
+    print("file_type: ", file_type)
+    # 在保存excel文件前，先把同类型的文件全部删了
+    delete_old_file(file_type)
+    # 上传最新的文件
+    upload_file(file_type, file)
+
+    return flask.jsonify({"message": "File uploaded and saved successfully"})
+
+
+def delete_old_file(file_type):
+    dir_path = os.path.join(os.getcwd(), 'temp')
+    print("delete the old file...")
+    file_list = list_dir()
+    for file in file_list:
+        if str(file[0]) == str(file_type):
+            file_path = os.path.join(dir_path, file)
+            os.remove(file_path)
+
+
+def upload_file(file_type, file):
+    print("upload new file...")
+    temp_file_path = os.path.join(os.getcwd() + '\\temp', file_type + "_" + file.filename)
+    file.save(temp_file_path)
+
+
+def list_dir():
+    dir_path = os.path.join(os.getcwd(), 'temp')
+    file_list = os.listdir(dir_path)
+    return file_list
 
 
 if __name__ == '__main__':

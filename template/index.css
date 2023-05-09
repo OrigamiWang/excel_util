@@ -38,6 +38,11 @@
     margin: 2vh;
 }
 
+#path {
+    height: 21vh;
+    margin: 2vh;
+}
+
 .row {
     flex-direction: row;
 }
@@ -65,4 +70,16 @@
     border-radius: 5px;
     box-shadow: 0 0 10px #888888;
     display: none;
+}
+
+.input_style {
+    background-color: blue;
+    font-size: 1vh;
+    height: 2vh;
+}
+
+.path_div {
+    background-color: red;
+    height: 3vh;
+    font-size: 1vh;
 }

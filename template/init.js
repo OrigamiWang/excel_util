@@ -2,7 +2,10 @@ let path1 = document.getElementById('drop_area1_in_hidden')
 let path2 = document.getElementById('drop_area2_in_hidden')
 let setting = document.getElementById('setting')
 let combineBtn = document.getElementById('combine_btn')
-
+let file_btn1 = document.getElementById('file_btn1')
+let file_btn2 = document.getElementById('file_btn2')
+let file_btn_arr = [file_btn1, file_btn2]
+let file_btn_id = ['file_btn1', 'file_btn2']
 let sub_file_btn = [
     document.getElementById('drop_area1'),
     document.getElementById('drop_area2')

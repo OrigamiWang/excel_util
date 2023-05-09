@@ -2,6 +2,5 @@
 # 1. 在路径最后必须要添加反斜杠 
 # 2. 不要破坏文件结构 (冒号后面有个空格，路径使用单引号) 
 # 3. 文件路径必须存在！
-basic_path: 'C:\Users\Origami\Desktop\excelutil2\excel\\\'
-out_path: 'C:\Users\Origami\Desktop\excelutil2\output\\\'
-union_excel: 'C:\Users\Origami\Desktop\excelutil2\excel\待匹配_test.xlsx'
+out_path: 'D:\university\project\excel_util\output\'
+union_excel: 'D:\university\project\excel_util\excel\待匹配_test.xlsx'

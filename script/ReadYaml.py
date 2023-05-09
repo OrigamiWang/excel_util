@@ -16,15 +16,14 @@ def get_yaml_data(yaml_path):
 # 运行前的预处理。包括创建配置文件、文件夹；创建结果输出文件夹
 
 
-def write_yaml(basic_path, out_path, union_excel):
-    print(basic_path, out_path, union_excel)
+def write_yaml(out_path, union_excel):
+    print(out_path, union_excel)
     with open('config.yaml', 'w', encoding='utf-8') as f:
         f.write(
             "# 注意:\n# "
             "1. 在路径最后必须要添加反斜杠 \n# "
             "2. 不要破坏文件结构 (冒号后面有个空格，路径使用单引号) \n"
             "# 3. 文件路径必须存在！\n"
-            "basic_path: \'" + basic_path + "\'\n" +
             "out_path: \'" + out_path + "\'\n" +
             "union_excel: \'" + union_excel + "\'\n")
 
