@@ -2,7 +2,7 @@
 .drop_area {
     background-color: #e5e5e5;
     height: 40vh;
-    width: 40vh;
+    width: 20vw;
     border-radius: 5%;
     border-width: 1vh;
     border-style: dashed;
@@ -35,12 +35,12 @@
 
 #btns {
     height: 21vh;
-    margin: 2vh;
+    margin: 2vh 2vw;
 }
 
 #path {
     height: 21vh;
-    margin: 2vh;
+    margin: 2vh 2vw;
 }
 
 .row {

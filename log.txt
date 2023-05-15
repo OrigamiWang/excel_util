@@ -322,3 +322,1183 @@ delete the old file...
 upload new file...
 combine_excel方法异常
 Usecols do not match columns, columns expected but not found: ['销方名称']
+ * Serving Flask app 'app' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [10/May/2023 21:09:09] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:09:09] "GET /template/index.css HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:09:09] "GET /template/add_file.png HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:09:09] "GET /template/upload.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:09:09] "GET /template/init.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:09:09] "GET /template/ModifyCss.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:09:09] "GET /template/JsToPy.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:09:09] "GET /template/ClickBtn.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:09:09] "GET /template/DragFile.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:09:09] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [10/May/2023 21:09:09] "GET /setting/getPath HTTP/1.1" 200 -
+ * Serving Flask app 'app' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [10/May/2023 21:11:34] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:11:34] "GET /template/index.css HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:11:34] "GET /template/add_file.png HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:11:34] "GET /template/init.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:11:34] "GET /template/upload.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:11:34] "GET /template/DragFile.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:11:34] "GET /template/ModifyCss.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:11:34] "GET /template/ClickBtn.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:11:34] "GET /template/JsToPy.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:11:34] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [10/May/2023 21:11:34] "GET /setting/getPath HTTP/1.1" 200 -
+D:\university\project\excel_util\ExcelUtil
+out_path
+union_excel
+ * Serving Flask app 'app' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [10/May/2023 21:12:30] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:12:30] "GET /template/index.css HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:12:30] "GET /template/add_file.png HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:12:30] "GET /template/JsToPy.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:12:30] "GET /template/upload.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:12:30] "GET /template/ModifyCss.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:12:30] "GET /template/DragFile.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:12:30] "GET /template/init.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:12:30] "GET /template/ClickBtn.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:12:30] "GET /setting/getPath HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:14:12] "GET /template/index.css HTTP/1.1" 304 -
+D:\university\project\excel_util\ExcelUtil
+out_path
+union_excel
+ * Serving Flask app 'app' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [10/May/2023 21:15:01] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:15:01] "GET /template/index.css HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:15:01] "GET /template/add_file.png HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:15:01] "GET /template/init.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:15:01] "GET /template/upload.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:15:01] "GET /template/ModifyCss.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:15:01] "GET /template/JsToPy.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:15:01] "GET /template/DragFile.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:15:01] "GET /template/ClickBtn.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:15:01] "GET /setting/getPath HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:15:04] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:15:04] "GET /template/index.css HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:15:04] "GET /template/add_file.png HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:15:05] "GET /template/init.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:15:05] "GET /template/JsToPy.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:15:05] "GET /template/upload.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:15:05] "GET /template/ModifyCss.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:15:05] "GET /template/DragFile.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:15:05] "GET /template/ClickBtn.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:15:05] "GET /setting/getPath HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:15:05] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:15:05] "GET /template/index.css HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:15:05] "GET /template/add_file.png HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:15:05] "GET /template/init.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:15:05] "GET /template/JsToPy.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:15:05] "GET /template/upload.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:15:05] "GET /template/ModifyCss.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:15:05] "GET /template/DragFile.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:15:05] "GET /template/ClickBtn.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:15:05] "GET /setting/getPath HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:15:58] "GET /template/index.css HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:17:19] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:17:19] "GET /template/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:17:19] "GET /template/add_file.png HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:17:19] "GET /template/upload.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:17:19] "GET /template/ModifyCss.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:17:19] "GET /template/init.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:17:19] "GET /template/JsToPy.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:17:19] "GET /template/ClickBtn.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:17:19] "GET /template/DragFile.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:17:19] "GET /setting/getPath HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:18:01] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:18:01] "GET /template/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:18:01] "GET /template/add_file.png HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:18:01] "GET /template/init.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:18:01] "GET /template/upload.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:18:01] "GET /template/ModifyCss.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:18:01] "GET /template/JsToPy.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:18:01] "GET /template/DragFile.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:18:01] "GET /template/ClickBtn.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:18:01] "GET /setting/getPath HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:18:12] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:18:12] "GET /template/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:18:12] "GET /template/add_file.png HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:18:12] "GET /template/init.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:18:12] "GET /template/upload.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:18:12] "GET /template/JsToPy.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:18:12] "GET /template/ModifyCss.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:18:12] "GET /template/ClickBtn.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:18:12] "GET /template/DragFile.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:18:12] "GET /setting/getPath HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:18:16] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:18:16] "GET /template/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:18:16] "GET /template/add_file.png HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:18:16] "GET /template/init.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:18:16] "GET /template/JsToPy.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:18:16] "GET /template/ModifyCss.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:18:16] "GET /template/upload.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:18:16] "GET /template/ClickBtn.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:18:16] "GET /template/DragFile.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:18:16] "GET /setting/getPath HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:18:19] "GET /template/index.css HTTP/1.1" 304 -
+D:\university\project\excel_util\ExcelUtil
+out_path
+union_excel
+D:\university\project\excel_util\ExcelUtil
+out_path
+union_excel
+D:\university\project\excel_util\ExcelUtil
+out_path
+union_excel
+D:\university\project\excel_util\ExcelUtil
+out_path
+union_excel
+D:\university\project\excel_util\ExcelUtil
+out_path
+union_excel
+D:\university\project\excel_util\ExcelUtil
+out_path
+union_excel
+D:\university\project\excel_util\ExcelUtil
+out_path
+union_excel
+ * Serving Flask app 'app' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [10/May/2023 21:19:13] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:19:13] "GET /template/index.css HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:19:13] "GET /template/add_file.png HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:19:13] "GET /template/upload.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:19:13] "GET /template/init.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:19:13] "GET /template/ModifyCss.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:19:13] "GET /template/JsToPy.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:19:13] "GET /template/DragFile.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:19:13] "GET /template/ClickBtn.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:19:13] "GET /setting/getPath HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:19:51] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:19:51] "GET /template/index.css HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:19:51] "GET /template/add_file.png HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:19:51] "GET /template/init.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:19:51] "GET /template/ModifyCss.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:19:51] "GET /template/upload.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:19:51] "GET /template/JsToPy.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:19:51] "GET /template/DragFile.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:19:51] "GET /template/ClickBtn.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:19:51] "GET /setting/getPath HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:20:00] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:20:00] "GET /template/index.css HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:20:00] "GET /template/add_file.png HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:20:00] "GET /template/init.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:20:00] "GET /template/JsToPy.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:20:00] "GET /template/upload.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:20:00] "GET /template/ModifyCss.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:20:00] "GET /template/DragFile.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:20:00] "GET /template/ClickBtn.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:20:00] "GET /setting/getPath HTTP/1.1" 200 -
+D:\university\project\excel_util\ExcelUtil
+out_path
+union_excel
+D:\university\project\excel_util\ExcelUtil
+out_path
+union_excel
+D:\university\project\excel_util\ExcelUtil
+out_path
+union_excel
+ * Serving Flask app 'app' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [10/May/2023 21:20:07] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:20:07] "GET /template/index.css HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:20:07] "GET /template/add_file.png HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:20:07] "GET /template/init.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:20:07] "GET /template/ModifyCss.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:20:07] "GET /template/upload.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:20:07] "GET /template/JsToPy.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:20:07] "GET /template/DragFile.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:20:07] "GET /template/ClickBtn.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:20:07] "GET /setting/getPath HTTP/1.1" 200 -
+D:\university\project\excel_util\ExcelUtil
+out_path
+union_excel
+ * Serving Flask app 'app' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [10/May/2023 21:22:09] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:22:09] "GET /template/index.css HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:22:09] "GET /template/add_file.png HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:22:09] "GET /template/init.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:22:09] "GET /template/upload.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:22:09] "GET /template/ModifyCss.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:22:09] "GET /template/JsToPy.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:22:09] "GET /template/DragFile.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:22:09] "GET /template/ClickBtn.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:22:09] "GET /setting/getPath HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:25:43] "GET /setting/paths?path1=D:\university\project\excel_util\output\&path2=D:\university\project\excel_util\excel\待匹配_test.xlsx HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:25:51] "GET /setting/paths?path1=D:\university\project\excel_util\output\&path2=D:\university\project\excel_util\excel\待匹配_test.xlsx HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:26:10] "GET /combine?union=D:\university\project\excel_util\excel\待匹配_test.xlsx HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:26:23] "GET /setting/paths?path1=D:\university\project\excel_util\output&path2=D:\university\project\excel_util\excel\待匹配_test.xlsx HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:26:24] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:26:24] "GET /template/index.css HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:26:24] "GET /template/add_file.png HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:26:24] "GET /template/init.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:26:24] "GET /template/upload.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:26:24] "GET /template/ModifyCss.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:26:24] "GET /template/JsToPy.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:26:24] "GET /template/DragFile.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:26:24] "GET /template/ClickBtn.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:26:24] "GET /setting/getPath HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:26:28] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:26:28] "GET /template/index.css HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:26:28] "GET /template/add_file.png HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:26:28] "GET /template/init.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:26:28] "GET /template/ModifyCss.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:26:28] "GET /template/JsToPy.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:26:28] "GET /template/upload.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:26:28] "GET /template/DragFile.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:26:28] "GET /template/ClickBtn.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:26:28] "GET /setting/getPath HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:26:34] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:26:34] "GET /template/index.css HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:26:34] "GET /template/add_file.png HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:26:34] "GET /template/init.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:26:34] "GET /template/ModifyCss.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:26:34] "GET /template/upload.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:26:34] "GET /template/JsToPy.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:26:34] "GET /template/DragFile.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:26:34] "GET /template/ClickBtn.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:26:34] "GET /setting/getPath HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:26:39] "GET /setting/paths?path1=D:\university\project\excel_util\output\&path2=D:\university\project\excel_util\excel\待匹配_test.xlsx HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:26:40] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:26:40] "GET /template/index.css HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:26:40] "GET /template/add_file.png HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:26:40] "GET /template/ModifyCss.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:26:40] "GET /template/init.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:26:40] "GET /template/upload.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:26:40] "GET /template/JsToPy.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:26:40] "GET /template/DragFile.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:26:40] "GET /template/ClickBtn.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:26:40] "GET /setting/getPath HTTP/1.1" 200 -
+D:\university\project\excel_util\ExcelUtil
+out_path
+union_excel
+D:\university\project\excel_util\output\ D:\university\project\excel_util\excel\待匹配_test.xlsx
+D:\university\project\excel_util\output\ D:\university\project\excel_util\excel\待匹配_test.xlsx
+combine_excel方法异常
+[WinError 3] 系统找不到指定的路径。: 'D:\\university\\project\\excel_util\\ExcelUtil\\temp'
+D:\university\project\excel_util\output D:\university\project\excel_util\excel\待匹配_test.xlsx
+D:\university\project\excel_util\ExcelUtil
+out_path
+union_excel
+D:\university\project\excel_util\ExcelUtil
+out_path
+union_excel
+D:\university\project\excel_util\ExcelUtil
+out_path
+union_excel
+D:\university\project\excel_util\output\ D:\university\project\excel_util\excel\待匹配_test.xlsx
+D:\university\project\excel_util\ExcelUtil
+out_path
+union_excel
+ * Serving Flask app 'app' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [10/May/2023 21:27:53] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:27:53] "GET /template/index.css HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:27:53] "GET /template/init.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:27:53] "GET /template/upload.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:27:53] "GET /template/ModifyCss.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:27:53] "GET /template/JsToPy.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:27:53] "GET /template/DragFile.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:27:53] "GET /template/ClickBtn.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:27:53] "GET /template/add_file.png HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:27:53] "GET /setting/getPath HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:29:20] "GET /template/index.css HTTP/1.1" 304 -
+D:\university\project\excel_util\ExcelUtil
+out_path
+union_excel
+ * Serving Flask app 'app' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [10/May/2023 21:30:11] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:30:11] "GET /template/index.css HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:30:11] "GET /template/add_file.png HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:30:11] "GET /template/init.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:30:11] "GET /template/upload.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:30:11] "GET /template/ModifyCss.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:30:11] "GET /template/JsToPy.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:30:11] "GET /template/DragFile.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:30:11] "GET /template/ClickBtn.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:30:12] "GET /setting/getPath HTTP/1.1" 200 -
+D:\university\project\excel_util\ExcelUtil
+out_path
+union_excel
+ * Serving Flask app 'app' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [10/May/2023 21:31:20] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:31:20] "GET /template/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:31:20] "GET /template/init.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:31:20] "GET /template/upload.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:31:20] "GET /template/ModifyCss.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:31:20] "GET /template/JsToPy.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:31:20] "GET /template/DragFile.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:31:20] "GET /template/ClickBtn.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:31:20] "GET /template/add_file.png HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:31:20] "GET /setting/getPath HTTP/1.1" 200 -
+D:\university\project\excel_util\ExcelUtil
+out_path
+union_excel
+ * Serving Flask app 'app' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [10/May/2023 21:32:58] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:32:58] "GET /template/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:32:58] "GET /template/add_file.png HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:32:58] "GET /template/JsToPy.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:32:58] "GET /template/upload.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:32:58] "GET /template/init.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:32:58] "GET /template/ModifyCss.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:32:58] "GET /template/DragFile.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:32:58] "GET /template/ClickBtn.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:32:58] "GET /setting/getPath HTTP/1.1" 200 -
+D:\university\project\excel_util\ExcelUtil
+out_path
+union_excel
+ * Serving Flask app 'app' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [10/May/2023 21:34:03] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:34:03] "GET /template/index.css HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:34:03] "GET /template/init.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:34:03] "GET /template/upload.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:34:03] "GET /template/ModifyCss.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:34:03] "GET /template/JsToPy.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:34:03] "GET /template/DragFile.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:34:03] "GET /template/ClickBtn.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:34:03] "GET /template/add_file.png HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:34:03] "GET /setting/getPath HTTP/1.1" 200 -
+D:\university\project\excel_util\ExcelUtil
+out_path
+union_excel
+ * Serving Flask app 'app' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [10/May/2023 21:34:22] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:34:22] "GET /template/index.css HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:34:22] "GET /template/add_file.png HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:34:22] "GET /template/upload.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:34:22] "GET /template/JsToPy.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:34:22] "GET /template/init.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:34:22] "GET /template/ModifyCss.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:34:22] "GET /template/DragFile.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:34:22] "GET /template/ClickBtn.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:34:22] "GET /setting/getPath HTTP/1.1" 200 -
+D:\university\project\excel_util\ExcelUtil
+out_path
+union_excel
+ * Serving Flask app 'app' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [10/May/2023 21:34:27] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:34:27] "GET /template/index.css HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:34:27] "GET /template/add_file.png HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:34:27] "GET /template/init.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:34:27] "GET /template/ModifyCss.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:34:27] "GET /template/JsToPy.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:34:27] "GET /template/upload.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:34:27] "GET /template/DragFile.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:34:27] "GET /template/ClickBtn.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:34:27] "GET /setting/getPath HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:34:29] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:34:29] "GET /template/index.css HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:34:29] "GET /template/add_file.png HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:34:29] "GET /template/init.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:34:29] "GET /template/JsToPy.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:34:29] "GET /template/upload.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:34:29] "GET /template/ModifyCss.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:34:29] "GET /template/DragFile.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:34:29] "GET /template/ClickBtn.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:34:29] "GET /setting/getPath HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:34:29] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:34:29] "GET /template/index.css HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:34:29] "GET /template/add_file.png HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:34:29] "GET /template/ModifyCss.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:34:29] "GET /template/upload.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:34:29] "GET /template/init.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:34:29] "GET /template/JsToPy.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:34:29] "GET /template/DragFile.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:34:29] "GET /template/ClickBtn.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:34:29] "GET /setting/getPath HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:34:29] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:34:29] "GET /template/index.css HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:34:29] "GET /template/add_file.png HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:34:29] "GET /template/init.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:34:29] "GET /template/upload.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:34:29] "GET /template/ModifyCss.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:34:29] "GET /template/JsToPy.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:34:29] "GET /template/DragFile.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:34:29] "GET /template/ClickBtn.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:34:29] "GET /setting/getPath HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:34:29] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:34:29] "GET /template/index.css HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:34:29] "GET /template/add_file.png HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:34:29] "GET /template/init.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:34:29] "GET /template/upload.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:34:29] "GET /template/JsToPy.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:34:29] "GET /template/ModifyCss.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:34:29] "GET /template/DragFile.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:34:29] "GET /template/ClickBtn.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:34:30] "GET /setting/getPath HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:34:42] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:34:42] "GET /template/index.css HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:34:42] "GET /template/add_file.png HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:34:42] "GET /template/init.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:34:42] "GET /template/upload.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:34:42] "GET /template/ModifyCss.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:34:42] "GET /template/JsToPy.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:34:42] "GET /template/DragFile.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:34:42] "GET /template/ClickBtn.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:34:43] "GET /setting/getPath HTTP/1.1" 200 -
+D:\university\project\excel_util\ExcelUtil
+out_path
+union_excel
+D:\university\project\excel_util\ExcelUtil
+out_path
+union_excel
+D:\university\project\excel_util\ExcelUtil
+out_path
+union_excel
+D:\university\project\excel_util\ExcelUtil
+out_path
+union_excel
+D:\university\project\excel_util\ExcelUtil
+out_path
+union_excel
+D:\university\project\excel_util\ExcelUtil
+out_path
+union_excel
+ * Serving Flask app 'app' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [10/May/2023 21:34:46] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:34:46] "GET /template/index.css HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:34:46] "GET /template/upload.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:34:46] "GET /template/init.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:34:46] "GET /template/ModifyCss.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:34:46] "GET /template/JsToPy.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:34:46] "GET /template/DragFile.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:34:46] "GET /template/add_file.png HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:34:46] "GET /template/ClickBtn.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:34:46] "GET /setting/getPath HTTP/1.1" 200 -
+D:\university\project\excel_util\ExcelUtil
+out_path
+union_excel
+ * Serving Flask app 'app' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [10/May/2023 21:35:56] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:35:56] "GET /template/index.css HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:35:56] "GET /template/add_file.png HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:35:56] "GET /template/init.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:35:56] "GET /template/ModifyCss.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:35:56] "GET /template/JsToPy.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:35:56] "GET /template/upload.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:35:56] "GET /template/DragFile.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:35:56] "GET /template/ClickBtn.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:35:56] "GET /setting/getPath HTTP/1.1" 200 -
+D:\university\project\excel_util\ExcelUtil
+out_path
+union_excel
+ * Serving Flask app 'app' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Serving Flask app 'app' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [10/May/2023 21:39:33] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:39:34] "GET /template/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:39:34] "GET /template/add_file.png HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:39:34] "GET /template/init.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:39:34] "GET /template/ModifyCss.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:39:34] "GET /template/upload.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:39:34] "GET /template/JsToPy.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:39:34] "GET /template/DragFile.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:39:34] "GET /template/ClickBtn.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:39:34] "GET /setting/getPath HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:39:34] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [10/May/2023 21:39:45] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:39:45] "GET /template/index.css HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:39:45] "GET /template/add_file.png HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:39:45] "GET /template/init.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:39:45] "GET /template/upload.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:39:45] "GET /template/ModifyCss.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:39:45] "GET /template/JsToPy.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:39:45] "GET /template/DragFile.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:39:45] "GET /template/ClickBtn.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:39:45] "GET /setting/getPath HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:39:45] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:39:45] "GET /template/index.css HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:39:45] "GET /template/add_file.png HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:39:45] "GET /template/init.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:39:45] "GET /template/upload.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:39:45] "GET /template/JsToPy.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:39:45] "GET /template/ModifyCss.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:39:45] "GET /template/DragFile.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:39:45] "GET /template/ClickBtn.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:39:45] "GET /setting/getPath HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:39:46] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:39:46] "GET /template/index.css HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:39:46] "GET /template/add_file.png HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:39:46] "GET /template/init.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:39:46] "GET /template/upload.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:39:46] "GET /template/ModifyCss.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:39:46] "GET /template/JsToPy.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:39:46] "GET /template/DragFile.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:39:46] "GET /template/ClickBtn.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:39:46] "GET /setting/getPath HTTP/1.1" 200 -
+D:\university\project\excel_util\ExcelUtil
+out_path
+union_excel
+D:\university\project\excel_util\ExcelUtil
+out_path
+union_excel
+D:\university\project\excel_util\ExcelUtil
+out_path
+union_excel
+D:\university\project\excel_util\ExcelUtil
+out_path
+union_excel
+ * Serving Flask app 'app' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [10/May/2023 21:39:48] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:39:48] "GET /template/index.css HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:39:48] "GET /template/add_file.png HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:39:48] "GET /template/init.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:39:48] "GET /template/upload.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:39:48] "GET /template/ModifyCss.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:39:48] "GET /template/JsToPy.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:39:48] "GET /template/DragFile.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:39:48] "GET /template/ClickBtn.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:39:48] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:39:48] "GET /template/index.css HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:39:48] "GET /template/add_file.png HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:39:49] "GET /template/init.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:39:49] "GET /template/upload.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:39:49] "GET /template/ModifyCss.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:39:49] "GET /template/JsToPy.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:39:49] "GET /template/DragFile.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:39:49] "GET /template/ClickBtn.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:39:49] "GET /setting/getPath HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:39:49] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:39:49] "GET /template/index.css HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:39:49] "GET /template/add_file.png HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:39:49] "GET /template/init.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:39:49] "GET /template/ModifyCss.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:39:49] "GET /template/upload.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:39:49] "GET /template/JsToPy.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:39:49] "GET /template/DragFile.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:39:49] "GET /template/ClickBtn.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:39:49] "GET /setting/getPath HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:40:13] "GET /template/index.css HTTP/1.1" 304 -
+D:\university\project\excel_util\ExcelUtil
+out_path
+union_excel
+D:\university\project\excel_util\ExcelUtil
+out_path
+union_excel
+ * Serving Flask app 'app' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [10/May/2023 21:41:25] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:41:25] "GET /template/index.css HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:41:25] "GET /template/upload.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:41:25] "GET /template/init.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:41:25] "GET /template/ModifyCss.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:41:25] "GET /template/JsToPy.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:41:25] "GET /template/DragFile.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:41:25] "GET /template/ClickBtn.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:41:25] "GET /template/add_file.png HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:41:31] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:41:31] "GET /template/index.css HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:41:31] "GET /template/add_file.png HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:41:31] "GET /template/ModifyCss.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:41:31] "GET /template/init.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:41:31] "GET /template/upload.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:41:31] "GET /template/JsToPy.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:41:31] "GET /template/DragFile.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:41:31] "GET /template/ClickBtn.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:41:31] "GET /setting/getPath HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:41:31] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:41:31] "GET /template/index.css HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:41:31] "GET /template/add_file.png HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:41:31] "GET /template/init.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:41:31] "GET /template/upload.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:41:31] "GET /template/ModifyCss.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:41:31] "GET /template/JsToPy.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:41:31] "GET /template/DragFile.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:41:31] "GET /template/ClickBtn.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:41:31] "GET /setting/getPath HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:41:40] "GET /template/index.css HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:46:35] "GET /combine?union=D:\university\project\excel_util\excel\待匹配_test.xlsx HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:46:36] "GET /combine?union=D:\university\project\excel_util\excel\待匹配_test.xlsx HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:46:36] "GET /setting/paths?path1=D:\university\project\excel_util\output\&path2=D:\university\project\excel_util\excel\待匹配_test.xlsx HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:46:36] "GET /combine?union=D:\university\project\excel_util\excel\待匹配_test.xlsx HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:46:37] "GET /setting/paths?path1=D:\university\project\excel_util\output\&path2=D:\university\project\excel_util\excel\待匹配_test.xlsx HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:46:37] "GET /combine?union=D:\university\project\excel_util\excel\待匹配_test.xlsx HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:46:38] "GET /combine?union=D:\university\project\excel_util\excel\待匹配_test.xlsx HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:46:38] "GET /setting/paths?path1=D:\university\project\excel_util\output\&path2=D:\university\project\excel_util\excel\待匹配_test.xlsx HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:46:38] "GET /combine?union=D:\university\project\excel_util\excel\待匹配_test.xlsx HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:46:41] "POST /upload?type=0 HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:46:41] "POST /upload?type=1 HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:46:44] "POST /upload?type=1 HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:46:44] "GET /combine?union=D:\university\project\excel_util\excel\待匹配_test.xlsx HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:46:46] "GET /setting/paths?path1=D:\university\project\excel_util\output\&path2=D:\university\project\excel_util\excel\待匹配_test.xlsx HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:46:46] "GET /combine?union=D:\university\project\excel_util\excel\待匹配_test.xlsx HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:46:47] "GET /combine?union=D:\university\project\excel_util\excel\待匹配_test.xlsx HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:46:54] "POST /upload?type=0 HTTP/1.1" 200 -
+D:\university\project\excel_util\ExcelUtil
+out_path
+union_excel
+D:\university\project\excel_util\ExcelUtil
+out_path
+union_excel
+combine_excel方法异常
+[WinError 3] 系统找不到指定的路径。: 'D:\\university\\project\\excel_util\\ExcelUtil\\temp'
+combine_excel方法异常
+[WinError 3] 系统找不到指定的路径。: 'D:\\university\\project\\excel_util\\ExcelUtil\\temp'
+D:\university\project\excel_util\output\ D:\university\project\excel_util\excel\待匹配_test.xlsx
+combine_excel方法异常
+[WinError 3] 系统找不到指定的路径。: 'D:\\university\\project\\excel_util\\ExcelUtil\\temp'
+D:\university\project\excel_util\output\ D:\university\project\excel_util\excel\待匹配_test.xlsx
+combine_excel方法异常
+[WinError 3] 系统找不到指定的路径。: 'D:\\university\\project\\excel_util\\ExcelUtil\\temp'
+combine_excel方法异常
+[WinError 3] 系统找不到指定的路径。: 'D:\\university\\project\\excel_util\\ExcelUtil\\temp'
+D:\university\project\excel_util\output\ D:\university\project\excel_util\excel\待匹配_test.xlsx
+combine_excel方法异常
+[WinError 3] 系统找不到指定的路径。: 'D:\\university\\project\\excel_util\\ExcelUtil\\temp'
+file_type:  0
+delete the old file...
+upload方法异常
+[WinError 3] 系统找不到指定的路径。: 'D:\\university\\project\\excel_util\\ExcelUtil\\temp'
+file_type:  1
+delete the old file...
+upload方法异常
+[WinError 3] 系统找不到指定的路径。: 'D:\\university\\project\\excel_util\\ExcelUtil\\temp'
+file_type:  1
+delete the old file...
+upload方法异常
+[WinError 3] 系统找不到指定的路径。: 'D:\\university\\project\\excel_util\\ExcelUtil\\temp'
+combine_excel方法异常
+[WinError 3] 系统找不到指定的路径。: 'D:\\university\\project\\excel_util\\ExcelUtil\\temp'
+D:\university\project\excel_util\output\ D:\university\project\excel_util\excel\待匹配_test.xlsx
+combine_excel方法异常
+[WinError 3] 系统找不到指定的路径。: 'D:\\university\\project\\excel_util\\ExcelUtil\\temp'
+combine_excel方法异常
+[WinError 3] 系统找不到指定的路径。: 'D:\\university\\project\\excel_util\\ExcelUtil\\temp'
+upload方法异常
+400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+ * Serving Flask app 'app' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [10/May/2023 21:47:46] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:47:46] "GET /template/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:47:46] "GET /template/upload.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:47:46] "GET /template/JsToPy.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:47:46] "GET /template/init.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:47:46] "GET /template/ModifyCss.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:47:46] "GET /template/DragFile.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:47:46] "GET /template/ClickBtn.js HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:47:46] "GET /template/add_file.png HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:47:47] "GET /setting/getPath HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:47:49] "POST /upload?type=0 HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:47:51] "POST /upload?type=1 HTTP/1.1" 200 -
+D:\university\project\excel_util\ExcelUtil
+out_path
+union_excel
+file_type:  0
+delete the old file...
+upload方法异常
+[WinError 3] 系统找不到指定的路径。: 'D:\\university\\project\\excel_util\\ExcelUtil\\temp'
+file_type:  1
+delete the old file...
+upload方法异常
+[WinError 3] 系统找不到指定的路径。: 'D:\\university\\project\\excel_util\\ExcelUtil\\temp'
+ * Serving Flask app 'app' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [10/May/2023 21:48:06] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:48:06] "GET /template/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:48:06] "GET /template/init.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:48:06] "GET /template/ModifyCss.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:48:06] "GET /template/upload.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:48:06] "GET /template/JsToPy.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:48:06] "GET /template/DragFile.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:48:06] "GET /template/ClickBtn.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:48:06] "GET /template/add_file.png HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:48:06] "GET /setting/getPath HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:48:06] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [10/May/2023 21:48:21] "POST /upload?type=0 HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:48:25] "POST /upload?type=1 HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:48:29] "POST /upload?type=0 HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:48:33] "POST /upload?type=1 HTTP/1.1" 200 -
+D:\university\project\excel_util\ExcelUtil
+out_path
+union_excel
+file_type:  0
+delete the old file...
+upload方法异常
+[WinError 3] 系统找不到指定的路径。: 'D:\\university\\project\\excel_util\\ExcelUtil\\temp'
+file_type:  1
+delete the old file...
+upload方法异常
+[WinError 3] 系统找不到指定的路径。: 'D:\\university\\project\\excel_util\\ExcelUtil\\temp'
+file_type:  0
+delete the old file...
+upload方法异常
+[WinError 3] 系统找不到指定的路径。: 'D:\\university\\project\\excel_util\\ExcelUtil\\temp'
+file_type:  1
+delete the old file...
+upload方法异常
+[WinError 3] 系统找不到指定的路径。: 'D:\\university\\project\\excel_util\\ExcelUtil\\temp'
+ * Serving Flask app 'app' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [10/May/2023 21:48:41] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:48:41] "GET /template/index.css HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:48:41] "GET /template/add_file.png HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:48:41] "GET /template/ModifyCss.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:48:41] "GET /template/init.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:48:41] "GET /template/upload.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:48:41] "GET /template/JsToPy.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:48:41] "GET /template/DragFile.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:48:41] "GET /template/ClickBtn.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:48:41] "GET /setting/getPath HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:48:41] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [10/May/2023 21:48:50] "POST /upload?type=0 HTTP/1.1" 200 -
+D:\university\project\excel_util\ExcelUtil
+out_path
+union_excel
+file_type:  0
+delete the old file...
+upload方法异常
+[WinError 3] 系统找不到指定的路径。: 'D:\\university\\project\\excel_util\\ExcelUtil\\temp'
+Traceback (most recent call last):
+  File "D:\university\project\excel_util\ExcelUtil\app.py", line 145, in <module>
+    webview.start()
+  File "C:\Users\Origami\AppData\Roaming\Python\Python39\site-packages\webview\__init__.py", line 161, in start
+    guilib.create_window(windows[0])
+  File "C:\Users\Origami\AppData\Roaming\Python\Python39\site-packages\webview\platforms\winforms.py", line 555, in create_window
+    thread.Join()
+KeyboardInterrupt
+ * Serving Flask app 'app' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [10/May/2023 21:50:04] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:50:04] "GET /template/index.css HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:50:04] "GET /template/add_file.png HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:50:04] "GET /template/upload.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:50:04] "GET /template/init.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:50:04] "GET /template/JsToPy.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:50:04] "GET /template/ModifyCss.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:50:04] "GET /template/DragFile.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:50:04] "GET /template/ClickBtn.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:50:04] "GET /setting/getPath HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:50:04] "GET /favicon.ico HTTP/1.1" 404 -
+D:\university\project\excel_util\ExcelUtil
+out_path
+union_excel
+Traceback (most recent call last):
+  File "D:\university\project\excel_util\ExcelUtil\app.py", line 145, in <module>
+    webview.start()
+  File "C:\Users\Origami\AppData\Roaming\Python\Python39\site-packages\webview\__init__.py", line 161, in start
+    guilib.create_window(windows[0])
+  File "C:\Users\Origami\AppData\Roaming\Python\Python39\site-packages\webview\platforms\winforms.py", line 555, in create_window
+    thread.Join()
+KeyboardInterrupt
+ * Serving Flask app 'app' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [10/May/2023 21:50:08] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:50:08] "GET /template/index.css HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:50:08] "GET /template/add_file.png HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:50:08] "GET /template/init.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:50:08] "GET /template/upload.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:50:08] "GET /template/JsToPy.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:50:08] "GET /template/ModifyCss.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:50:08] "GET /template/DragFile.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:50:08] "GET /template/ClickBtn.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:50:08] "GET /setting/getPath HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:50:08] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [10/May/2023 21:50:13] "POST /upload?type=0 HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:50:17] "POST /upload?type=1 HTTP/1.1" 200 -
+C:\Users\Origami\AppData\Roaming\Python\Python39\site-packages\openpyxl\styles\stylesheet.py:226: UserWarning: Workbook contains no default style, apply openpyxl's default
+  warn("Workbook contains no default style, apply openpyxl's default")
+127.0.0.1 - - [10/May/2023 21:50:35] "GET /combine?union=D:\university\project\excel_util\excel\待匹配_test.xlsx HTTP/1.1" 200 -
+D:\university\project\excel_util\ExcelUtil
+out_path
+union_excel
+file_type:  0
+delete the old file...
+upload new file...
+file_type:  1
+delete the old file...
+upload new file...
+5月
+[['3月', 1, 14067863, '2023-03-07', '*电线电缆*电线电缆', '3*2.5', 13, 384.955385, '扎', 5004.42, 5655, '5月', 2, '14067863', '2023-03-07', '献县华桥线缆有限公司', '*电线电缆*电线电缆', '3*2.5', 13.0, 384.955385, '扎', 5004.42, 5655.0], ['3月', 1, 14067863, '2023-03-07', '*电线电缆*电线电缆', '3*4+1*2.5', 2, 734.515, '扎', 1469.03, 1660, '5月', 3, '14067863', '2023-03-07', '献县华桥线缆有限公司', '*电线电缆*电线电缆', '3*4+1*2.5', 2.0, 734.515, '扎', 1469.03, 1660.0], ['5月', 3, 23782444.0, '2023-03-01', '*黑色金属冶炼压延品*止水钢板', 'L型', 30.0, 86.725667, '个', 2601.77, 2940.0, '3月', 1.0, 23782444.0, '2023-03-01', '献县华桥线缆有限公司', '*黑色金属冶炼压延品*止水钢板', 'L型', 30.0, 86.725667, '个', 2601.77, 2940.0], ['5月', 4, 23782444.0, '2023-03-01', '*黑色金属冶炼压延品*止水钢板', '300*30mm', 50.0, 30.575233, '米', 9172.57, 10365.0, '3月', 1.0, 23782444.0, '2023-03-01', '献县华桥线缆有限公司', '*黑色金属冶炼压延品*止水钢板', 'L型', 50.0, 86.725667, '个', 2601.77, 2940.0]]
+[['进销比对区', '进销比对区', '进销比对区', '进销比对区'], ['进项含税单价', '销项含税单价', '进项含税总金额', '销项含税金额'], [435.0, 435.0, 5655.0, 5655], [830.0, 830.0, 1660.0, 1660], [98.0, 98.0, 2940.0, 2940.0], [58.8, 207.3, 2940.0, 10365.0]]
+Traceback (most recent call last):
+  File "D:\university\project\excel_util\ExcelUtil\app.py", line 145, in <module>
+    webview.start()
+  File "C:\Users\Origami\AppData\Roaming\Python\Python39\site-packages\webview\__init__.py", line 161, in start
+    guilib.create_window(windows[0])
+  File "C:\Users\Origami\AppData\Roaming\Python\Python39\site-packages\webview\platforms\winforms.py", line 555, in create_window
+    thread.Join()
+KeyboardInterrupt
+ * Serving Flask app 'app' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [10/May/2023 21:57:37] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:57:37] "GET /template/index.css HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:57:37] "GET /template/add_file.png HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:57:37] "GET /template/upload.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:57:37] "GET /template/init.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:57:37] "GET /template/ModifyCss.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:57:37] "GET /template/JsToPy.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:57:37] "GET /template/DragFile.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:57:37] "GET /template/ClickBtn.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:57:37] "GET /setting/getPath HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:57:37] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [10/May/2023 21:57:40] "POST /upload?type=0 HTTP/1.1" 200 -
+D:\university\project\excel_util\ExcelUtil
+out_path
+union_excel
+file_type:  0
+delete the old file...
+upload new file...
+ * Serving Flask app 'app' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [10/May/2023 21:57:58] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:57:58] "GET /template/index.css HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:57:58] "GET /template/add_file.png HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:57:58] "GET /template/init.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:57:58] "GET /template/upload.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:57:58] "GET /template/ModifyCss.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:57:58] "GET /template/JsToPy.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:57:58] "GET /template/DragFile.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:57:58] "GET /template/ClickBtn.js HTTP/1.1" 304 -
+127.0.0.1 - - [10/May/2023 21:57:58] "GET /setting/getPath HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 21:57:58] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [10/May/2023 22:00:05] "POST /upload?type=0 HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 22:00:07] "POST /upload?type=1 HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 22:00:08] "GET /combine?union=D:\university\project\excel_util\excel\待匹配_test.xlsx HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 22:00:12] "POST /upload?type=1 HTTP/1.1" 200 -
+127.0.0.1 - - [10/May/2023 22:00:14] "POST /upload?type=0 HTTP/1.1" 200 -
+C:\Users\Origami\AppData\Roaming\Python\Python39\site-packages\openpyxl\styles\stylesheet.py:226: UserWarning: Workbook contains no default style, apply openpyxl's default
+  warn("Workbook contains no default style, apply openpyxl's default")
+127.0.0.1 - - [10/May/2023 22:00:20] "GET /combine?union=D:\university\project\excel_util\excel\待匹配_test.xlsx HTTP/1.1" 200 -
+D:\university\project\excel_util\ExcelUtil
+out_path
+union_excel
+file_type:  0
+delete the old file...
+upload new file...
+file_type:  1
+delete the old file...
+upload new file...
+5月
+combine_excel方法异常
+Usecols do not match columns, columns expected but not found: ['销方名称', '价税合计', '开票日期', '金额', '数量', '单价', '规格型号', '发票号码', '单位', '货物、应税劳务及服务']
+file_type:  1
+delete the old file...
+upload new file...
+file_type:  0
+delete the old file...
+upload new file...
+5月
+[['3月', 1, 14067863, '2023-03-07', '*电线电缆*电线电缆', '3*2.5', 13, 384.955385, '扎', 5004.42, 5655, '5月', 2, '14067863', '2023-03-07', '献县华桥线缆有限公司', '*电线电缆*电线电缆', '3*2.5', 13.0, 384.955385, '扎', 5004.42, 5655.0], ['3月', 1, 14067863, '2023-03-07', '*电线电缆*电线电缆', '3*4+1*2.5', 2, 734.515, '扎', 1469.03, 1660, '5月', 3, '14067863', '2023-03-07', '献县华桥线缆有限公司', '*电线电缆*电线电缆', '3*4+1*2.5', 2.0, 734.515, '扎', 1469.03, 1660.0], ['5月', 3, 23782444.0, '2023-03-01', '*黑色金属冶炼压延品*止水钢板', 'L型', 30.0, 86.725667, '个', 2601.77, 2940.0, '3月', 1.0, 23782444.0, '2023-03-01', '献县华桥线缆有限公司', '*黑色金属冶炼压延品*止水钢板', 'L型', 30.0, 86.725667, '个', 2601.77, 2940.0], ['5月', 4, 23782444.0, '2023-03-01', '*黑色金属冶炼压延品*止水钢板', '300*30mm', 50.0, 30.575233, '米', 9172.57, 10365.0, '3月', 1.0, 23782444.0, '2023-03-01', '献县华桥线缆有限公司', '*黑色金属冶炼压延品*止水钢板', 'L型', 50.0, 86.725667, '个', 2601.77, 2940.0]]
+[['进销比对区', '进销比对区', '进销比对区', '进销比对区'], ['进项含税单价', '销项含税单价', '进项含税总金额', '销项含税金额'], [435.0, 435.0, 5655.0, 5655], [830.0, 830.0, 1660.0, 1660], [98.0, 98.0, 2940.0, 2940.0], [58.8, 207.3, 2940.0, 10365.0]]
+ * Serving Flask app 'app' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [13/May/2023 18:17:05] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2023 18:17:05] "GET /template/index.css HTTP/1.1" 304 -
+127.0.0.1 - - [13/May/2023 18:17:05] "GET /template/init.js HTTP/1.1" 304 -
+127.0.0.1 - - [13/May/2023 18:17:05] "GET /template/upload.js HTTP/1.1" 304 -
+127.0.0.1 - - [13/May/2023 18:17:05] "GET /template/ModifyCss.js HTTP/1.1" 304 -
+127.0.0.1 - - [13/May/2023 18:17:05] "GET /template/add_file.png HTTP/1.1" 304 -
+127.0.0.1 - - [13/May/2023 18:17:05] "GET /template/JsToPy.js HTTP/1.1" 304 -
+127.0.0.1 - - [13/May/2023 18:17:05] "GET /template/DragFile.js HTTP/1.1" 304 -
+127.0.0.1 - - [13/May/2023 18:17:05] "GET /template/ClickBtn.js HTTP/1.1" 304 -
+127.0.0.1 - - [13/May/2023 18:17:05] "GET /setting/getPath HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2023 18:17:05] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [13/May/2023 18:17:43] "GET /setting/paths?path1=C:\Users\Origami\Desktop\输出结果\&path2=C:\Users\Origami\Desktop\excel\待合并.xlsx HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2023 18:17:48] "POST /upload?type=0 HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2023 18:17:53] "POST /upload?type=1 HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2023 18:17:57] "POST /upload?type=0 HTTP/1.1" 200 -
+C:\Users\Origami\AppData\Roaming\Python\Python39\site-packages\openpyxl\styles\stylesheet.py:226: UserWarning: Workbook contains no default style, apply openpyxl's default
+  warn("Workbook contains no default style, apply openpyxl's default")
+127.0.0.1 - - [13/May/2023 18:17:58] "GET /combine?union=C:\Users\Origami\Desktop\excel\待合并.xlsx HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2023 18:18:31] "GET /setting/paths?path1=C:\Users\Origami\Desktop\输出结果\&path2=C:\Users\Origami\Desktop\excel\res.xlsx HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2023 18:18:32] "GET /combine?union=C:\Users\Origami\Desktop\excel\res.xlsx HTTP/1.1" 200 -
+ * Serving Flask app 'app' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+127.0.0.1 - - [13/May/2023 18:19:12] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2023 18:19:12] "GET /template/index.css HTTP/1.1" 304 -
+127.0.0.1 - - [13/May/2023 18:19:12] "GET /template/add_file.png HTTP/1.1" 304 -
+127.0.0.1 - - [13/May/2023 18:19:12] "GET /template/upload.js HTTP/1.1" 304 -
+127.0.0.1 - - [13/May/2023 18:19:12] "GET /template/ModifyCss.js HTTP/1.1" 304 -
+127.0.0.1 - - [13/May/2023 18:19:12] "GET /template/init.js HTTP/1.1" 304 -
+127.0.0.1 - - [13/May/2023 18:19:12] "GET /template/JsToPy.js HTTP/1.1" 304 -
+127.0.0.1 - - [13/May/2023 18:19:12] "GET /template/DragFile.js HTTP/1.1" 304 -
+127.0.0.1 - - [13/May/2023 18:19:12] "GET /template/ClickBtn.js HTTP/1.1" 304 -
+127.0.0.1 - - [13/May/2023 18:19:12] "GET /setting/getPath HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2023 18:19:12] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [13/May/2023 18:19:20] "POST /upload?type=0 HTTP/1.1" 200 -
+127.0.0.1 - - [13/May/2023 18:19:22] "POST /upload?type=1 HTTP/1.1" 200 -
+C:\Users\Origami\AppData\Roaming\Python\Python39\site-packages\openpyxl\styles\stylesheet.py:226: UserWarning: Workbook contains no default style, apply openpyxl's default
+  warn("Workbook contains no default style, apply openpyxl's default")
+127.0.0.1 - - [13/May/2023 18:19:23] "GET /combine?union=C:\Users\Origami\Desktop\excel\res.xlsx HTTP/1.1" 200 -
+ * Serving Flask app 'app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+127.0.0.1 - - [14/May/2023 17:33:57] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/May/2023 17:33:57] "GET /template/add_file.png HTTP/1.1" 200 -
+127.0.0.1 - - [14/May/2023 17:33:57] "GET /template/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/May/2023 17:33:57] "GET /template/JsToPy.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/May/2023 17:33:57] "GET /template/ClickBtn.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/May/2023 17:33:57] "GET /template/upload.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/May/2023 17:33:57] "GET /template/ModifyCss.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/May/2023 17:33:57] "GET /template/init.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/May/2023 17:33:57] "GET /template/DragFile.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/May/2023 17:33:57] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [14/May/2023 17:33:57] "GET /setting/getPath HTTP/1.1" 200 -
+D:\university\project\excel_util\ExcelUtil
+out_path
+union_excel
+ * Serving Flask app 'app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+127.0.0.1 - - [14/May/2023 18:33:08] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/May/2023 18:33:08] "GET /template/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/May/2023 18:33:08] "GET /template/add_file.png HTTP/1.1" 200 -
+127.0.0.1 - - [14/May/2023 18:33:08] "GET /template/init.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/May/2023 18:33:08] "GET /template/ModifyCss.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/May/2023 18:33:08] "GET /template/upload.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/May/2023 18:33:08] "GET /template/JsToPy.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/May/2023 18:33:08] "GET /template/DragFile.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/May/2023 18:33:08] "GET /template/ClickBtn.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/May/2023 18:33:08] "GET /setting/getPath HTTP/1.1" 200 -
+127.0.0.1 - - [14/May/2023 18:33:08] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [14/May/2023 18:33:20] "GET /setting/paths?path1=C:\\Users\\Origami\\Desktop\\输出结果\\&path2=C:\\Users\\Origami\\Desktop\\excel\\总（待）匹配表.xlsx HTTP/1.1" 200 -
+127.0.0.1 - - [14/May/2023 18:34:02] "GET /setting/paths?path1=D:\\university\\project\\excel_util\\output\\&path2=D:\\university\\project\\excel_util\\excel\\总（待）匹配表.xlsx HTTP/1.1" 200 -
+127.0.0.1 - - [14/May/2023 18:34:07] "POST /upload?type=0 HTTP/1.1" 200 -
+127.0.0.1 - - [14/May/2023 18:34:08] "POST /upload?type=1 HTTP/1.1" 200 -
+D:\university\project\excel_util\py38\lib\site-packages\openpyxl\styles\stylesheet.py:226: UserWarning: Workbook contains no default style, apply openpyxl's default
+  warn("Workbook contains no default style, apply openpyxl's default")
+127.0.0.1 - - [14/May/2023 18:34:16] "GET /combine?union=D:\\university\\project\\excel_util\\excel\\总（待）匹配表.xlsx HTTP/1.1" 200 -
+127.0.0.1 - - [14/May/2023 18:34:40] "GET /setting/paths?path1=D:\\university\\project\\excel_util\\output\\&path2=D:\\university\\project\\excel_util\\excel\\待匹配_test.xlsx HTTP/1.1" 200 -
+D:\university\project\excel_util\py38\lib\site-packages\openpyxl\styles\stylesheet.py:226: UserWarning: Workbook contains no default style, apply openpyxl's default
+  warn("Workbook contains no default style, apply openpyxl's default")
+127.0.0.1 - - [14/May/2023 18:34:41] "GET /combine?union=D:\\university\\project\\excel_util\\excel\\待匹配_test.xlsx HTTP/1.1" 200 -
+D:\university\project\excel_util\py38\lib\site-packages\openpyxl\styles\stylesheet.py:226: UserWarning: Workbook contains no default style, apply openpyxl's default
+  warn("Workbook contains no default style, apply openpyxl's default")
+127.0.0.1 - - [14/May/2023 18:34:54] "GET /combine?union=D:\\university\\project\\excel_util\\excel\\待匹配_test.xlsx HTTP/1.1" 200 -
+127.0.0.1 - - [14/May/2023 18:34:57] "GET /setting/paths?path1=D:\\university\\project\\excel_util\\output\\&path2=D:\\university\\project\\excel_util\\excel\\待匹配_test.xlsx HTTP/1.1" 200 -
+D:\university\project\excel_util\py38\lib\site-packages\openpyxl\styles\stylesheet.py:226: UserWarning: Workbook contains no default style, apply openpyxl's default
+  warn("Workbook contains no default style, apply openpyxl's default")
+127.0.0.1 - - [14/May/2023 18:34:59] "GET /combine?union=D:\\university\\project\\excel_util\\excel\\待匹配_test.xlsx HTTP/1.1" 200 -
+D:\university\project\excel_util\ExcelUtil
+out_path
+union_excel
+C:\Users\Origami\Desktop\输出结果\ C:\Users\Origami\Desktop\excel\总（待）匹配表.xlsx
+D:\university\project\excel_util\output\ D:\university\project\excel_util\excel\总（待）匹配表.xlsx
+file_type:  0
+delete the old file...
+upload new file...
+file_type:  1
+delete the old file...
+upload new file...
+5月
+[]
+[['进销比对区', '进销比对区', '进销比对区', '进销比对区'], ['进项含税单价', '销项含税单价', '进项含税总金额', '销项含税金额']]
+D:\university\project\excel_util\output\ D:\university\project\excel_util\excel\待匹配_test.xlsx
+5月
+combine_excel方法异常
+module 'numpy' has no attribute 'float'.
+`np.float` was a deprecated alias for the builtin `float`. To avoid this error in existing code, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+The aliases was originally deprecated in NumPy 1.20; for more details and guidance see the original release note at:
+    https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+5月
+combine_excel方法异常
+module 'numpy' has no attribute 'float'.
+`np.float` was a deprecated alias for the builtin `float`. To avoid this error in existing code, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+The aliases was originally deprecated in NumPy 1.20; for more details and guidance see the original release note at:
+    https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+D:\university\project\excel_util\output\ D:\university\project\excel_util\excel\待匹配_test.xlsx
+5月
+combine_excel方法异常
+module 'numpy' has no attribute 'float'.
+`np.float` was a deprecated alias for the builtin `float`. To avoid this error in existing code, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
+The aliases was originally deprecated in NumPy 1.20; for more details and guidance see the original release note at:
+    https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+ * Serving Flask app 'app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+127.0.0.1 - - [14/May/2023 18:36:24] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/May/2023 18:36:24] "GET /template/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/May/2023 18:36:24] "GET /template/add_file.png HTTP/1.1" 200 -
+127.0.0.1 - - [14/May/2023 18:36:24] "GET /template/init.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/May/2023 18:36:24] "GET /template/upload.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/May/2023 18:36:24] "GET /template/JsToPy.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/May/2023 18:36:24] "GET /template/ModifyCss.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/May/2023 18:36:24] "GET /template/DragFile.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/May/2023 18:36:24] "GET /template/ClickBtn.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/May/2023 18:36:24] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [14/May/2023 18:36:24] "GET /setting/getPath HTTP/1.1" 200 -
+127.0.0.1 - - [14/May/2023 18:36:39] "POST /upload?type=0 HTTP/1.1" 200 -
+127.0.0.1 - - [14/May/2023 18:36:41] "POST /upload?type=1 HTTP/1.1" 200 -
+127.0.0.1 - - [14/May/2023 18:36:42] "GET /setting/paths?path1=D:\\university\\project\\excel_util\\output\\&path2=D:\\university\\project\\excel_util\\excel\\待匹配_test.xlsx HTTP/1.1" 200 -
+D:\university\project\excel_util\py38\lib\site-packages\openpyxl\styles\stylesheet.py:226: UserWarning: Workbook contains no default style, apply openpyxl's default
+  warn("Workbook contains no default style, apply openpyxl's default")
+127.0.0.1 - - [14/May/2023 18:36:48] "GET /combine?union=D:\\university\\project\\excel_util\\excel\\待匹配_test.xlsx HTTP/1.1" 200 -
+127.0.0.1 - - [14/May/2023 18:37:13] "GET /setting/paths?path1=D:\\university\\project\\excel_util\\output\\&path2=D:\\university\\project\\excel_util\\excel\\总（待）匹配表.xlsx HTTP/1.1" 200 -
+D:\university\project\excel_util\py38\lib\site-packages\openpyxl\styles\stylesheet.py:226: UserWarning: Workbook contains no default style, apply openpyxl's default
+  warn("Workbook contains no default style, apply openpyxl's default")
+127.0.0.1 - - [14/May/2023 18:37:18] "GET /combine?union=D:\\university\\project\\excel_util\\excel\\总（待）匹配表.xlsx HTTP/1.1" 200 -
+D:\university\project\excel_util\ExcelUtil
+out_path
+union_excel
+file_type:  0
+delete the old file...
+upload new file...
+file_type:  1
+delete the old file...
+upload new file...
+D:\university\project\excel_util\output\ D:\university\project\excel_util\excel\待匹配_test.xlsx
+5月
+[['3月', 1, 14067863, '2023-03-07', '*电线电缆*电线电缆', '3*2.5', 13, 384.955385, '扎', 5004.42, 5655, '5月', 2, '14067863', '2023-03-07', '献县华桥线缆有限公司', '*电线电缆*电线电缆', '3*2.5', 13.0, 384.955385, '扎', 5004.42, 5655.0], ['3月', 1, 14067863, '2023-03-07', '*电线电缆*电线电缆', '3*4+1*2.5', 2, 734.515, '扎', 1469.03, 1660, '5月', 3, '14067863', '2023-03-07', '献县华桥线缆有限公司', '*电线电缆*电线电缆', '3*4+1*2.5', 2.0, 734.515, '扎', 1469.03, 1660.0], ['5月', 3, 23782444.0, '2023-03-01', '*黑色金属冶炼压延品*止水钢板', 'L型', 30.0, 86.725667, '个', 2601.77, 2940.0, '3月', 1.0, 23782444.0, '2023-03-01', '献县华桥线缆有限公司', '*黑色金属冶炼压延品*止水钢板', 'L型', 30.0, 86.725667, '个', 2601.77, 2940.0], ['5月', 4, 23782444.0, '2023-03-01', '*黑色金属冶炼压延品*止水钢板', '300*30mm', 50.0, 30.575233, '米', 9172.57, 10365.0, '3月', 1.0, 23782444.0, '2023-03-01', '献县华桥线缆有限公司', '*黑色金属冶炼压延品*止水钢板', 'L型', 50.0, 86.725667, '个', 2601.77, 2940.0]]
+[['进销比对区', '进销比对区', '进销比对区', '进销比对区'], ['进项含税单价', '销项含税单价', '进项含税总金额', '销项含税金额'], [435.0, 435.0, 5655.0, 5655], [830.0, 830.0, 1660.0, 1660], [98.0, 98.0, 2940.0, 2940.0], [58.8, 207.3, 2940.0, 10365.0]]
+D:\university\project\excel_util\output\ D:\university\project\excel_util\excel\总（待）匹配表.xlsx
+5月
+[]
+[['进销比对区', '进销比对区', '进销比对区', '进销比对区'], ['进项含税单价', '销项含税单价', '进项含税总金额', '销项含税金额']]
+ * Serving Flask app 'app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+127.0.0.1 - - [14/May/2023 19:10:12] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [14/May/2023 19:10:12] "GET /template/index.css HTTP/1.1" 200 -
+127.0.0.1 - - [14/May/2023 19:10:12] "GET /template/add_file.png HTTP/1.1" 200 -
+127.0.0.1 - - [14/May/2023 19:10:12] "GET /template/init.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/May/2023 19:10:12] "GET /template/upload.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/May/2023 19:10:12] "GET /template/ModifyCss.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/May/2023 19:10:12] "GET /template/DragFile.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/May/2023 19:10:12] "GET /template/ClickBtn.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/May/2023 19:10:12] "GET /template/JsToPy.js HTTP/1.1" 200 -
+127.0.0.1 - - [14/May/2023 19:10:12] "GET /setting/getPath HTTP/1.1" 200 -
+127.0.0.1 - - [14/May/2023 19:10:12] "GET /favicon.ico HTTP/1.1" 404 -
+D:\university\project\excel_util\ExcelUtil
+out_path
+union_excel

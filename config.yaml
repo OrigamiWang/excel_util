@@ -3,4 +3,4 @@
 # 2. 不要破坏文件结构 (冒号后面有个空格，路径使用单引号) 
 # 3. 文件路径必须存在！
 out_path: 'D:\university\project\excel_util\output\'
-union_excel: 'D:\university\project\excel_util\excel\待匹配_test.xlsx'
+union_excel: 'D:\university\project\excel_util\excel\总（待）匹配表.xlsx'

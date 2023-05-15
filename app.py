@@ -8,7 +8,7 @@ sys.path.append(".")
 
 from script.ReadYaml import write_yaml, get_path_str
 from script.process_excel import solution
-
+#
 sys.stdout = open("log.txt", "a")
 sys.stderr = open("log.txt", "a")
 

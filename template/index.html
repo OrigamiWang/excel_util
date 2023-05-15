@@ -6,9 +6,9 @@
     <link rel="stylesheet" type="text/css" href="template/index.css"/>
 
 </head>
-<body onload="get_path()">
+<body onload="get_path()" style="overflow: hidden; margin: 0">
 
-<div id="container" style="margin: 5vh">
+<div id="container" style="margin: 5vh 5vw">
     <div id="message-box" style="font-weight: bold; font-size: 2vh">This is a message box!</div>
     <div id="top"
          class="center"
@@ -29,8 +29,7 @@
                 </label>
 
                 <div id="drop_area1_in_hidden" class="center"
-                     style="height: 5vh; font-weight: bold; visibility: hidden">
-                    <!--                    visibility: hidden-->
+                     style="font-size: 1vh;height: 5vh; font-weight: bold; visibility: hidden">
                 </div>
                 <div style="height: 30vh; display: flex; justify-content: center">
                     <img id="add_img1" alt="添加文件" src="template/add_file.png" class="img_size"/>
@@ -47,8 +46,7 @@
                     <input type="file" class="none" name="file" id="file_btn2" accept=".xls,.xlsx,.csv">
                 </label>
                 <div id="drop_area2_in_hidden" class="center"
-                     style="height: 5vh;font-weight: bold; visibility: hidden">
-                    <!--                    visibility: hidden-->
+                     style="font-size: 1vh; height: 5vh;font-weight: bold; visibility: hidden">
                 </div>
                 <div style="height: 30vh; display: flex; justify-content: center">
                     <img id="add_img2" alt="添加文件" src="template/add_file.png" class="img_size"/>
@@ -62,9 +60,8 @@
                      class="center">
                     使用说明
                 </div>
-                <div style="height: 30vh; font-size: 2vh; font-weight: bold; margin: 3vh">
-                    1. 修改左下角的2个默认的文件路径配置（可以参考默认路径）
-                    <br/>注意：第一行末尾有\，第二行末尾没有\<br/>
+                <div style="height: 30vh; font-size: 2vh; font-weight: bold; margin: 3vh 3vw">
+                    1. 修改左下角的2个默认的文件路径配置<br/>
                     2. 修改完后点击配置按钮<br/>
                     3. 点击加号或者直接将文件拖入<br/>
                     4. 点击合并按钮
@@ -79,19 +76,25 @@
             <div id="path"
                  class="around column"
                  style="background-color: #c2fde3">
-                <div class="center" style="background-color: #c2fde3; flex-direction: column; height: 10vh; width: 40vw">
-                    <div class="center" style="background-color: #c2fde3; height: 5vh; width: 30vw">
+                <div class="center"
+                     style="background-color: #c2fde3; flex-direction: column; height: 10vh; width: 40vw">
+                    <div class="center" style="font-size: 3vh;background-color: #c2fde3; height: 5vh; width: 30vw">
                         请输入输出结果文件夹路径:
                     </div>
-                    <input id="out_path" style="background-color: #a6ffdf;height: 4vh; width: 30vw" type="text"
-                           value="22212333333333333333"/>
+                    <input id="out_path"
+                           style="font-size: 3vh;background-color: #a6ffdf;height: 4vh; width: 30vw; border: 0; padding: 0"
+                           type="text"
+                           value=""/>
                 </div>
-                <div class="center" style="background-color: #c2fde3; flex-direction: column; height: 10vh; width: 40vw">
-                    <div class="center" style="background-color: #c2fde3; height: 5vh; width: 30vw">
+                <div class="center"
+                     style="background-color: #c2fde3; flex-direction: column; height: 10vh; width: 40vw">
+                    <div class="center" style="font-size: 3vh;background-color: #c2fde3; height: 5vh; width: 30vw">
                         请输入合并文件路径:
                     </div>
-                    <input id="union_excel" style="background-color: #a6ffdf;height: 4vh; width: 30vw" type="text"
-                           value="22212333333333333333"/>
+                    <input id="union_excel"
+                           style="font-size: 3vh;background-color: #a6ffdf;height: 4vh; width: 30vw; border: 0; padding: 0"
+                           type="text"
+                           value=""/>
                 </div>
             </div>
 

@@ -3,11 +3,14 @@
 # @Author : Origami
 # @File : test
 # @Project : ExcelUtil
+import time
+
 import pandas as pd
 import numpy as np
 import openpyxl as opx
+# from ReadYaml import get_yaml_data
 from .ReadYaml import get_yaml_data
-from .backup_file import backup_file
+from datetime import datetime
 
 
 def solution(in_excel, out_excel, union_excel):
@@ -204,10 +207,12 @@ def match(name1, type1, name2, type2):
 
 def pre_process(in_excel, out_excel, union_excel):
     in_col, out_col, match_in_col, match_out_col = get_col()
-    month = "四月"
+
+    cur_month = str(datetime.today().month) + "月"
+    print(cur_month)
 
     df1 = pd.read_excel(in_excel, header=1, usecols=in_col)  # 读取第一个Excel文件
-    df2 = pd.read_excel(out_excel, header=1, usecols=out_col)  # 读取第二个Excel文件
+    df2 = pd.read_excel(out_excel, header=2, usecols=out_col)  # 读取第二个Excel文件
     df3_in = pd.read_excel(union_excel, header=1, usecols=match_in_col)
     df3_out = pd.read_excel(union_excel, header=1, usecols=match_out_col)
     arr1 = get_arr(df1)
@@ -215,8 +220,8 @@ def pre_process(in_excel, out_excel, union_excel):
     arr3_in = get_arr(df3_in)
     arr3_out = get_arr(df3_out)
 
-    match_out = combine_arr(arr3_out, arr2, True, month, len(arr3_out) + 1)
-    match_in = combine_arr(arr3_in, arr1, True, month, len(arr3_in) + 1)
+    match_out = combine_arr(arr3_out, arr2, True, cur_month, len(arr3_out) + 1)
+    match_in = combine_arr(arr3_in, arr1, True, cur_month, len(arr3_in) + 1)
 
     return match_out, match_in
 
@@ -281,9 +286,9 @@ def combine_arr(arr1, arr2, isAdd, month, idx):
 
 
 if __name__ == '__main__':
-    in_excel = 'C:\\Users\\Origami\\Desktop\\excel\\进项_test.xlsx'
-    out_excel = 'C:\\Users\\Origami\\Desktop\\excel\\销项_test.xlsx'
-    union_excel = 'C:\\Users\\Origami\\Desktop\\excel\\待匹配_test.xlsx'
+    in_excel = r"D:\university\project\excel_util\excel\东莞市万吉建材有限公司_进项明细导出文件_3月7-23日(2).xlsx"
+    out_excel = r"D:\university\project\excel_util\excel\东莞市万吉建材有限公司_销货明细导出文件_3月.xlsx"
+    union_excel = r"D:\university\project\excel_util\excel\待匹配_test.xlsx"
     solution(in_excel, out_excel, union_excel)
 
     # merged_df = pd.merge(df1, df2, how='outer', on=["货物、应税劳务及服务", "规格型号"])
